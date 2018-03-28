@@ -84,14 +84,14 @@ public class MainHW1 {
 		int[] rangeList = new int[3];
 		remove.setInvertSelection(true);
 
-			for (int i = 1; i < 13; i++) {
+			for (int i = 1; i < 12; i++) {
 				//options[1] = Integer.toString(i);
 				rangeList[0] = i;
-				for (int j = i + 1; j < 14; j++) {
+				for (int j = i + 1; j < 13; j++) {
 					//String sj = Integer.toString(j);
 					//options[2] = sj;
 					rangeList[1] = j;
-					for (int k = j + 1; k < 15; k++) {
+					for (int k = j + 1; k < 14; k++) {
 						//String sk = Integer.toString(k);
 						//options[3] = sk;
 						rangeList[2] = k;
